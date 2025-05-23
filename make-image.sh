@@ -31,10 +31,10 @@ luci-proto-qmi luci-proto-mbim luci-proto-modemmanager xmm-modem \
 kmod-usb-storage kmod-usb-storage-uas kmod-nls-utf8 kmod-macvlan usbutils"
 
 # Modem Tools
-PACKAGES+=" modeminfo luci-app-modeminfo atinout modemband luci-app-modemband luci-app-mmconfig sms-tool luci-app-sms-tool-js luci-app-3ginfo-lite picocom minicom"
+# PACKAGES+=" modeminfo luci-app-modeminfo atinout modemband luci-app-modemband luci-app-mmconfig sms-tool luci-app-sms-tool-js luci-app-3ginfo-lite picocom minicom"
 
 # ModemInfo
-PACKAGES+=" modeminfo-serial-tw modeminfo-serial-dell modeminfo-serial-xmm modeminfo-serial-fibocom modeminfo-serial-sierra"
+# PACKAGES+=" modeminfo-serial-tw modeminfo-serial-dell modeminfo-serial-xmm modeminfo-serial-fibocom modeminfo-serial-sierra"
 
 # Tunnel VPN
 OPENCLASH+="coreutils-nohup bash ca-certificates ipset ip-full libcap libcap-bin ruby ruby-yaml kmod-tun kmod-inet-diag kmod-nft-tproxy luci-app-openclash"
@@ -62,16 +62,16 @@ PACKAGES+=" luci-app-diskman luci-app-tinyfm"
 PACKAGES+=" internet-detector luci-app-internet-detector vnstat2 vnstati2 luci-app-netmonitor"
 
 # Remote Services
-PACKAGES+=" tailscale luci-app-tailscale"
+# PACKAGES+=" tailscale luci-app-tailscale"
 
 # Bandwidth And Speedtest
-PACKAGES+=" speedtestcli luci-app-eqosplus"
+# PACKAGES+=" speedtestcli luci-app-eqosplus"
 
 # Tema
 PACKAGES+=" luci-theme-argon luci-theme-alpha"
 
 # Custom Packages And More
-PACKAGES+=" htop lolcat python3-pip zram-swap luci-app-rakitanmanager luci-app-poweroffdevice luci-app-ramfree luci-app-ttyd luci-app-lite-watchdog luci-app-ipinfo luci-app-droidnet luci-app-mactodong"
+PACKAGES+=" htop lolcat python3-pip zram-swap luci-app-ramfree luci-app-ttyd"
 
 # Handle_profile
 handle_profile_packages() {

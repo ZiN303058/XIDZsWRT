@@ -59,7 +59,7 @@ PACKAGES+=" php8 php8-fastcgi php8-fpm php8-mod-session php8-mod-ctype php8-mod-
 PACKAGES+=" luci-app-diskman luci-app-tinyfm"
 
 # Bandwidth And Network Monitoring
-PACKAGES+=" internet-detector luci-app-internet-detector vnstat2 vnstati2 luci-app-netmonitor"
+PACKAGES+=" vnstat2 vnstati2 luci-app-netmonitor"
 
 # Remote Services
 # PACKAGES+=" tailscale luci-app-tailscale"
